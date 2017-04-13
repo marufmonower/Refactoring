@@ -21,6 +21,10 @@ public class Refactorable {
 		}
 		
 		// print details
+		printDeatils(outstanding, count);
+	}
+
+	void printDeatils(double outstanding, int count) {
 		System.out.println("name: " + _name);
 		System.out.println("amount: " + outstanding);
 		System.out.println("name: " + count);
