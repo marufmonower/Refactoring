@@ -10,7 +10,6 @@ public class Refactorable {
 		double outstanding = 0.0;
 		int count = 0;
 		
-		// print banner
 		printBanner();
 		
 		// calculate outstanding
@@ -20,7 +19,6 @@ public class Refactorable {
 			count += 1;
 		}
 		
-		// print details
 		printDeatils(outstanding, count);
 	}
 
