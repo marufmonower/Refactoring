@@ -11,9 +11,7 @@ public class Refactorable {
 		int count = 0;
 		
 		// print banner
-		System.out.println("*************************");
-		System.out.println("***** Customer Owes *****");
-		System.out.println("*************************");
+		printBanner();
 		
 		// calculate outstanding
 		while(e.hasMoreElements()) {
@@ -26,5 +24,11 @@ public class Refactorable {
 		System.out.println("name: " + _name);
 		System.out.println("amount: " + outstanding);
 		System.out.println("name: " + count);
+	}
+
+	void printBanner() {
+		System.out.println("*************************");
+		System.out.println("***** Customer Owes *****");
+		System.out.println("*************************");
 	}
 }
